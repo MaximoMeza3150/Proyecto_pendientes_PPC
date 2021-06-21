@@ -1,0 +1,22 @@
+:root{
+    --color-PPC-dark:#ffffff;
+    --color-PPC-ligth:#ffffff;
+    --color-terciario:#A8A9B0;
+    --color-bg-primario:#F5F5F6;
+    --color-bg-secundario:#35373E;
+  }
+  
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Open Sans',sans-serif;
+  }
+
+  .PPC_primary{
+      background-color: var(--color-PPC-dark);
+  }
+  .PPC_secondary{
+    background-color: var(--color-PPC-ligth);
+}
+  
